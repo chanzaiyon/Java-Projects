@@ -48,6 +48,7 @@ public class HotelTester {
                 break;
             }
         }
+        System.out.println("hello");
         
         scanner.close();
     }
