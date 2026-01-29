@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class HotelTester {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -36,7 +35,7 @@ public class HotelTester {
                 if (sub1 == 1) {
                     hotel.ShowRooms();
                     System.out.println("\nSelect Room ");
-                    hotel.setroomnum(scanner.nextInt());
+                    hotel.setroomnum(scanner.nextLine());
                 } else {
                     break;
                 }
