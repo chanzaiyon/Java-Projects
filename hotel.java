@@ -44,6 +44,9 @@ public class hotel {
         } else if (roomType.equalsIgnoreCase("Premium")){
             RatePerNight += 3000;
             RatePerHead += 50;
+        } else if (roomType.equalsIgnoreCase("VIP")) {
+            RatePerNight += 5000;
+            RatePerHead += 50;
         }
     }
 
