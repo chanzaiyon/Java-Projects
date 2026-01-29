@@ -35,10 +35,15 @@ public class HotelTester {
 
                 if (sub1 == 1) {
                     hotel.ShowRooms();
+                    System.out.println("\nSelect Room ");
+                    hotel.setroomnum(scanner.nextInt());
+                } else {
+                    break;
                 }
             } else if (choice == 2) {
                 hotel.HotelRatesCaculation();
                 hotel.displayInfo();
+
             } else if (choice == 3) {
             } else {
                 break;
